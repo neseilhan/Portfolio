@@ -54,6 +54,7 @@ h5{
  }
  section{
    margin-top: 8rem;
+   height: 100vh;
  }
  section > h2, section > h5{
 text-align: center;
@@ -114,22 +115,5 @@ img{
   }
 }
 
-@media screen and(max-width: 600px){
-  header{
-    height: 68vh;
-  }
-
-}
-  
-
-@media screen and (max-width: 600px){
-  header{
-    height: 100vh;
-  }
-  .header_socials,
-  .scroll_down{
-    display: none;
-  }
-}
 
 
