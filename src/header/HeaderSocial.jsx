@@ -3,14 +3,14 @@ import { VscGithubAlt } from "react-icons/vsc";
 import {AiOutlineLinkedin} from "react-icons/ai"
 
 
-const HeaderSocials = () => {
+const HeaderSocial = () => {
     return(
-        <div className="header-social">
-            <a href="https://linkedin.com"> <AiOutlineLinkedin/>  </a>
-            <a href="https://github.com" target="_blank"> <VscGithubAlt/>  </a>
+        <div className="header__socials">
+            <a href="https://www.linkedin.com/in/nese-ilhan-0343b818a" > <AiOutlineLinkedin size={40}/>  </a>
+            <a href="https://github.com/neseilhan" > <VscGithubAlt size={40}/>  </a>
 
         </div>
     )
 
 }
-export default HeaderSocials
+export default HeaderSocial
