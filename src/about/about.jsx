@@ -7,36 +7,42 @@ import {AiOutlineFolderOpen} from 'react-icons/ai'
 
 const about = () => {
   return (
-    <section id='about'>
+    <section id="about">
+      <h5>Get to know</h5>
       <h2> About me</h2>
-      <div className='container about__container'>
-        <div className='about_me'>
-          <div className='about_me-image'>
-<img src={ME} alt="About Image"/>
+      
+      <div className="container about__container">
+        <div className='about__me'>
+          <div className="about_me-image">
+    <img src={ME} alt="About Image"/>
           </div>
         </div>
-      <div className='about__content'>
-        <div className='abpıt__cards'>
+      <div className="about__content">
+        <div className="about__cards">
 
-          <article className='about_card'>
-            <BsAward className='about__icon' size={25}/>
+          <article className="about__card">
+            <BsAward className="about__icon" size={25}/>
             <h5>Experience</h5>
-            <small>3+ years working</small>
+            <small>0+ years working</small>
           </article>
 
-          <article className='about_card'>
-            <MdCelebration className='about__icon' size={25}/>
+          <article className="about__card">
+            <MdCelebration className="about__icon" size={25}/>
             <h5>Clients</h5>
-            <small>200+ Worldwide</small>
+            <small>00 Worldwide</small>
           </article>
 
-          <article className='about_card'>
-            <AiOutlineFolderOpen className='about__icon' size={25}/>
+          <article className="about__card">
+            <AiOutlineFolderOpen className="about__icon" size={25}/>
             <h5>Projects</h5>
-            <small>70+ Completed</small>
+            <small>10+ Completed</small>
           </article>
-
         </div>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem beatae sequi maxime consequuntur voluptatum, vel ab eveniet blanditiis architecto adipisci, rem magni nobis cupiditate tenetur doloribus veritatis quo, dolorum ipsum.</p>
+           <a href='#contact' className='btn btn-primary'> Let's Talk</a>
+
+        
 
       </div>
 
