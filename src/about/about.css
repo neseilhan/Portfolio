@@ -1,7 +1,8 @@
 .about__container{
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 5%;
+    gap: 0.3%;
+   
     
 }
 
@@ -31,7 +32,8 @@ transform-origin: rotate(10deg);
 .about__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 1.2rem;
+
 }
 .about__card{
     background:var(--color-bg-variant);
@@ -60,13 +62,13 @@ transform-origin: rotate(10deg);
 }
 
 .about__content p{
-    margin: 2rem 0 2 6rem;
+    margin: 5rem 0 2 6rem;
     color: var(--color-light);
 }
 @media screen and(max-width: 600px){
  .about__container{
      grid-template-columns: 1fr;
-     gap: 0;
+     gap: 3%;
 
  }  
 } .about__me{
@@ -74,7 +76,7 @@ transform-origin: rotate(10deg);
     margin: 2rem auto 4rem;
 }
 .about__content p{
-    margin: 1rem 0 1 5rem;
+    margin: 5rem 0 0 0 ;
 }
     
   
@@ -84,12 +86,12 @@ transform-origin: rotate(10deg);
         margin: 0 auto 3rem;
     }
     .about__cards{
-        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-columns: 1fr 1fr;
     }
     .about_content{
 text-align: center;
     }
     .about__content p{
-        margin: 1.5rem 0;
+        margin: 5rem 0;
     }
   }
