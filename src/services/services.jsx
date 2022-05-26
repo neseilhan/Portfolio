@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-import {GiHolosphere} from 'react-icons/gi'
+import {BsFlower1} from 'react-icons/bs'
 const services = () => {
   return (
     <section id="services">
@@ -14,19 +14,19 @@ const services = () => {
           </div>
           <ul className='service_list'>
             <li>
-              <GiHolosphere/>
+              <BsFlower1 className='service_list-icon' size={65}/>
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
             <li>
-              <GiHolosphere className='service_list-icon' />
+              <BsFlower1 className='service_list-icon' size={65} />
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
             <li>
-              <GiHolosphere className='service_list-icon' />
+              <BsFlower1 className='service_list-icon' size={65} />
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
             <li>
-              <GiHolosphere className='service_list-icon' />
+              <BsFlower1 className='service_list-icon' size={65} />
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
           </ul>
@@ -40,19 +40,19 @@ const services = () => {
           </div>
       <ul className='service_list'>
       <li>
-              <GiHolosphere className='service_list-icon' />
+              <BsFlower1 className='service_list-icon' size={65} />
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
             <li>
-              <GiHolosphere className='service_list-icon' />
+              <BsFlower1 className='service_list-icon' size={65} />
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
             <li>
-              <GiHolosphere className='service_list-icon' />
+              <BsFlower1 className='service_list-icon' size={65} />
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
             <li>
-              <GiHolosphere className='service_list-icon' />
+              <BsFlower1 className='service_list-icon' size={65} />
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
       </ul>
@@ -64,19 +64,19 @@ const services = () => {
           </div>
       <ul className='service_list'>
       <li>
-              <GiHolosphere className='service_list-icon' />
+              <BsFlower1 className='service_list-icon' size={65} />
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
             <li>
-              <GiHolosphere className='service_list-icon' />
+              <BsFlower1 className='service_list-icon' size={65} />
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
             <li>
-              <GiHolosphere className='service_list-icon' />
+              <BsFlower1 className='service_list-icon' size={65} />
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
             <li>
-              <GiHolosphere className='service_list-icon' />
+              <BsFlower1 className='service_list-icon' size={65} />
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam deserunt quidem magnam, quisquam quia aliquam voluptatem minus! Rerum quisquam sapiente sunt voluptatem ab earum ipsum ipsa, atque nihil repellat?</p>
             </li>
       </ul>
